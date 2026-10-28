@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Komang Devigianti — Mahasiswa Teknik Komputer</title>
+  <meta name="description" content="Portofolio Komang Devigianti, mahasiswa Teknik Komputer asal Luwu Timur yang belajar membangun website.">
+
+  <!-- Font (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Letakkan style.css dan folder gambar di folder yang sama dengan file ini -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav aria-label="Navigasi utama">
+      <a class="logo" href="#atas">Komang Devigianti</a>
+      <ul>
+        <li><a href="#proyek">Proyek</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+        <li><button class="tema" id="tema" type="button" aria-label="Ganti tema terang atau gelap">Tema</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="atas">
+
+  <!-- Hero -->
+  <div class="wrap">
+    <div class="hero">
+      <div class="hero-teks">
+        <p class="status"><i></i> Terbuka untuk magang dan proyek</p>
+        <h1>Mahasiswa Teknik Komputer yang suka <span>membangun website.</span></h1>
+        <p class="lead">Saya Komang Devigianti, 20 tahun, asal Luwu Timur, Sulawesi Selatan. Saya belajar merancang tampilan dan menulis kode, lalu menerbitkannya supaya bisa dipakai orang lain.</p>
+        <div class="cta">
+          <a class="btn utama" href="#proyek">Lihat proyek</a>
+          <a class="btn garis" href="#kontak">Hubungi saya</a>
+        </div>
+      </div>
+      <img class="foto-hero" src="gambar/foto-saya.jpg" alt="Foto Komang Devigianti berjalan di pantai saat matahari terbenam" width="900" height="1600">
+    </div>
+  </div>
+
+  <!-- Proyek -->
+  <section id="proyek">
+    <div class="wrap">
+      <h2>Proyek</h2>
+
+      <a class="utama-proyek" href="https://komangweb2.site.je/" target="_blank" rel="noopener">
+        <img src="gambar/website-saya.jpg" alt="Tampilan website portofolio buatan Komang di komangweb2.site.je" width="1400" height="653" loading="lazy">
+        <span class="bar">
+          <b>Website portofolio pribadi</b>
+          Situs satu halaman yang saya tulis dengan HTML dan CSS, lalu saya terbitkan sendiri di hosting. Isinya proyek, profil, dan formulir kontak.
+          <span class="tag-baris"><b>HTML</b><b>CSS</b><b>JavaScript</b></span>
+        </span>
+      </a>
+
+      <p class="catatan">Proyek lain akan saya tambahkan di sini seiring saya belajar.</p>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="tentang">
+    <div class="wrap dua">
+      <div>
+        <img class="foto-tentang" src="gambar/foto-saya.jpg" alt="Foto Komang Devigianti di pantai" width="900" height="1600" loading="lazy">
+        <h2>Tentang saya</h2>
+        <p>Saya mahasiswa Teknik Komputer berusia 20 tahun dari Luwu Timur. Saya tertarik pada cara kerja komputer, dari perangkat kerasnya sampai situs yang tampil di layar.</p>
+        <p>Website portofolio ini adalah salah satu hasil belajar saya. Saya ingin terus memperbaikinya sambil mencari pengalaman lewat magang dan proyek bersama tim.</p>
+
+        <dl class="fakta">
+          <div><dt>Nama</dt><dd>Komang Devigianti</dd></div>
+          <div><dt>Usia</dt><dd>20 tahun</dd></div>
+          <div><dt>Asal</dt><dd>Luwu Timur, Sulawesi Selatan</dd></div>
+          <div><dt>Jurusan</dt><dd>Teknik Komputer</dd></div>
+        </dl>
+      </div>
+      <div>
+        <h3 class="sub">Keahlian</h3>
+        <ul class="skill">
+          <li>HTML &amp; CSS</li><li>JavaScript dasar</li><li>Pemrograman</li><li>Jaringan komputer</li><li>Perangkat keras</li><li>Desain tampilan</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pendidikan -->
+  <section id="pendidikan">
+    <div class="wrap">
+      <h2>Pendidikan dan kegiatan</h2>
+      <ul class="waktu">
+        <li><small>Sekarang</small><h3>Mahasiswa Teknik Komputer</h3><p>Belajar pemrograman, jaringan, dan perangkat keras komputer.</p></li>
+        <li><small>2026</small><h3>Menerbitkan website portofolio pertama</h3><p>Merancang dan menulis situs ini dengan HTML dan CSS, lalu menerbitkannya di komangweb2.site.je.</p></li>
+        <li><small>Berikutnya</small><h3>Mencari magang</h3><p>Ingin belajar langsung di bidang pengembangan web dan teknologi informasi.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak">
+    <div class="wrap kontak">
+      <div>
+        <h2>Ayo bicara</h2>
+        <p>Punya peluang magang, proyek, atau sekadar pertanyaan? Kirim pesan, saya akan balas secepatnya.</p>
+        <ul class="sosial">
+          <!-- GANTI dengan email dan akun media sosial Anda -->
+          <li><a href="mailto:emailanda@gmail.com">emailanda@gmail.com</a></li>
+          <li><a href="https://github.com/" rel="noopener">GitHub</a></li>
+          <li><a href="https://instagram.com/" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+      <form id="form">
+        <label for="nama">Nama</label>
+        <input id="nama" name="nama" required autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+        <label for="pesan">Pesan</label>
+        <textarea id="pesan" name="pesan" required></textarea>
+        <button class="btn utama" type="submit">Kirim pesan</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer><div class="wrap">© <span id="tahun">2026</span> Komang Devigianti. Dibuat dengan HTML dan CSS.</div></footer>
+
+<script>
+  // Tahun otomatis di footer
+  document.getElementById('tahun').textContent = new Date().getFullYear();
+
+  // Ganti tema terang/gelap
+  var root = document.documentElement;
+  document.getElementById('tema').addEventListener('click', function () {
+    var gelap = root.dataset.tema
+      ? root.dataset.tema === 'gelap'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.tema = gelap ? 'terang' : 'gelap';
+  });
+
+  // Formulir membuka aplikasi email (GANTI alamat dengan email Anda)
+  document.getElementById('form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target;
+    var isi = 'Nama: ' + f.nama.value + '\nEmail: ' + f.email.value + '\n\n' + f.pesan.value;
+    location.href = 'mailto:emailanda@gmail.com?subject=' +
+      encodeURIComponent('Pesan dari ' + f.nama.value) + '&body=' + encodeURIComponent(isi);
+  });
+</script>
+</body>
+</html>
